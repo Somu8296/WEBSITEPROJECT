@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        .navbar {
+            background-color: black;
+            color: white;
+        }
+
+        .navbar a {
+            color: white;
+            font-size: 17px;
+        }
+
+        .navbar a:hover {
+            color: rgb(147, 147, 147);
+
+            border-bottom: 3px solid red;
+        }
+
+        .navbar img {
+            width: 100px;
+            height: 80px;
+            margin-left: 100px;
+        }
+
+        #navbtn {
+            background-color: orange;
+            color: white;
+            width: 240px;
+            height: 50PX;
+            margin-right: 100px;
+        }
+
+        .btn:hover {
+            background-color: orange;
+        }
+
+        #ul {
+            margin-left: 500px;
+        }
+
+        .text h1 {
+            font-size: 95px;
+            padding: 300px 300px 30px 300px;
+            padding-left: 340px;
+            color: white;
+        }
+
+        .text {
+            background-color: rgb(29, 29, 255);
+            height: 100vh;
+            width: 100%;
+        }
+
+        .text #butn {
+            margin-left: 680px;
+            height: 60px;
+            width: 350px;
+            border-radius: 5px;
+            border: 1px solid orange;
+            background-color: orange;
+            color: white;
+            font-size: 20px;
+        }
+
+        .component h1 {
+            font-size: 50px;
+            height: 253px;
+            width: 100%;
+            margin-top: 80px;
+            background-color: white;
+        }
+
+        .component1 {
+            height: 220px;
+            width: 100%;
+            background-color: white;
+        }
+
+        #icons h4 {
+            font-size: 30px;
+        }
+
+        .card1 {
+            margin-bottom: 60px;
+        }
+
+        .cont {
+            height: 100vh;
+            width: 100vw;
+            padding: 160px;
+            /* opacity: 0.7; */
+            font-family: Poppins;
+            background-image: linear-gradient(to right, rgba(0, 51, 255, 0.624), rgba(21, 0, 255, 0.624)), url('/images/laptop.jpg');
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .form1 {
+            background-color: rgb(3, 3, 3);
+            opacity: 0.8;
+            width: 450px;
+            height: 550px;
+            padding: 55px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .form1 input {
+            background-color: black;
+            border: none;
+            border-bottom: 1px white solid;
+            padding: 10px;
+        }
+
+        .form1 a {
+            border: 2px solid orange;
+        }
+
+        .cont2 button {
+            background-color: none;
+            border: 2px solid orange;
+        }
+
+        .cont3 {
+
+            padding: 70px 20px 30px 50px;
+            color: white;
+        }
+
+        .btnn {
+            color: white;
+            background-color: orange;
+            height: 60px;
+            width: 200px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #cardd {
+            background-color: black;
+            color: white;
+            width: 100vw;
+            height: 300px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .card-text {
+            padding: 40px 30px 40px 30px;
+        }
+
+        .card-body a {
+            margin-left: 33px;
+        }
+
+        .cont4 {
+            background-color: rgb(66, 132, 223);
+        }
+
+        .cont7 img {
+            margin-right: 20px;
+        }
+
+        .cont7 {
+            margin-left: 40%;
+        }
+
+        .form2 {
+            padding-left: 400px;
+        }
+
+        .cont6 {
+            padding-top: 30px;
+        }
+
+        .footer {
+            color: white;
+        }
+
+        .footer input {
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 8px;
+            margin-top: 10px;
+            margin-bottom: 10px
+        }
+
+        .container {
+            justify-content: space-between;
+        }
+
+        .footer a {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="border:none">
+                <img src="/images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    </li>
+
+                </ul>
+
+
+                <ul class="navbar-nav me-auto  mb-lg-0" id="ul">
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">What We Do</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">Our Portfolio</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                </ul>
+
+                <button class="btn btn-outline-success" id="navbtn">CONNECT WITH US</button>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="text">
+        <h1 align="center">Amplify your brand.<br>
+            Fastrack your marketing.
+        </h1>
+        <button class="btn btn-outline-success" id="butn">OUR SUCESS STORIES</button>
+    </div>
+
+    <div class="component">
+        <h1 align="center">We empower businesses with <br>
+            results-driven content, digital marketing <br>
+            and technology solutions
+        </h1>
+    </div>
+
+
+    <div class="container d-flex" id="icons">
+
+
+        <div class="card1 col-4">
+            <img src="../images/bulb.png" alt="" style="margin-left:180px">
+            <h6 align="center">Corporate Consulting</h6>
+        </div>
+
+        <div class="card1 col-4">
+            <img src="../images/like.png" alt="" style="margin-left:180px">
+            <h6 align="center">Strategy & Execution</h6>
+        </div>
+
+        <div class="card1 col-4">
+            <img src="../images/window.png" alt="" style="margin-left:180px">
+            <h6 align="center">Maintenance & Support</h6>
+        </div>
+
+    </div>
+
+    <div class="cont d-flex mbr-overlay">
+
+        <div class="cont3 col-7 m-5">
+            <h2 style="font-size:30px">#CONTENT #STRATEGY</h2>
+            <h1 style="font-size:50px">Influence decisions with creative, <br> intelligent content</h1>
+            <button class="btnn my-5">Explore</button>
+        </div>
+
+        <div class="form1 col-3">
+            <div class="" style="width: 18rem;">
+                <div class="cont2 p-2">
+                    <h6>The Creative Guide to <br> Business Storytelling</h6>
+
+                    <p class="card-text my-4">A complete guide to super-charge your marketing efforts with impactful
+                        storytelling.</p>
+                    <input class="my-4" type="mail" placeholder="Your E-mail" size="20">
+                    <button type="button" class="btn btn-outline-warning">DOWNLOAD EBOOK</button>
+                    <p class="my-5"><b><i>Happy reading...</i></b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="d-flex p-5 align-center" id="cardd">
+
+        <div class="card2 col-3 mt-5">
+            <img src="../images/bulb.png" alt=""
+                style="margin-left:170px;height:50px;width: 50px; margin-bottom: 10px;">
+            <h5 align="center">Business Storytelling</h5>
+        </div>
+
+        <div class="card2 col-3 mt-5">
+            <img src="../images/like.png" alt=""
+                style="margin-left:170px;height:50px;width: 50px; margin-bottom: 10px;">
+            <h5 align="center">Video & Graphics</h5>
+        </div>
+
+        <div class="card2 col-3 mt-5">
+            <img src="../images/window.png" alt=""
+                style="margin-left:170px;height:50px;width: 50px; margin-bottom: 10px;">
+            <h5 align="center">Marketing Content & ebooks</h5>
+        </div>
+
+        <div class="card2 col-3 mt-5">
+            <img src="../images/window.png" alt=""
+                style="margin-left:170px;height:50px;width: 50px; margin-bottom: 10px;">
+            <h5 align="center">Blog & Leadership Content</h5>
+        </div>
+
+    </div>
+
+    <div class="cont d-flex mbr-overlay">
+
+        <div class="cont3 col-7 m-5">
+            <h2 style="font-size:30px">
+                #DIGITAL #MARKETING</h2>
+            <h1 style="font-size:50px">Attract, engage and convert your prospects into customers</h1>
+            <div class="btns d-flex">
+                <button class="btnn my-5 mx-3">Explore</button>
+                <button class="btnn my-5">RET A QUOTE</button>
+            </div>
+
+        </div>
+
+        <div class="form1 col-3">
+            <div class="" style="width: 18rem;">
+                <div class="cont2 p-2">
+                    <h6>
+                        The A–Z Guide to SaaS Product Marketing</h6>
+
+                    <p class="card-text my-4">Learn agile marketing tactics to boost conversions and maximize ROI</p>
+                    <input class="my-4" type="mail" placeholder="Your E-mail" size="20">
+                    <button type="button" class="btn btn-outline-warning">DOWNLOAD EBOOK</button>
+                    <p class="my-5"><i><b>Happy marketing...</i></b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="d-flex p-5 align-center" id="cardd">
+
+        <div class="card2 col-3 mt-5">
+            <img src="../images/search.png" alt=""
+                style="margin-left:170px;height:50px;width: 50px; margin-bottom: 10px;">
+            <h5 align="center">Business Storytelling</h5>
+        </div>
+
+        <div class="card2 col-3 mt-5">
+            <img src="../images/mail.png" alt=""
+                style="margin-left:170px;height:50px;width: 50px; margin-bottom: 10px;">
+            <h5 align="center">Video & Graphics</h5>
+        </div>
+
+        <div class="card2 col-3 mt-5">
+            <img src="../images/window.png" alt=""
+                style="margin-left:170px;height:50px;width: 50px; margin-bottom: 10px;">
+            <h5 align="center">Marketing Content & ebooks</h5>
+        </div>
+
+        <div class="card2 col-3 mt-5">
+            <img src="../images/window.png" alt=""
+                style="margin-left:170px;height:50px;width: 50px; margin-bottom: 10px;">
+            <h5 align="center">Blog & Leadership Content</h5>
+        </div>
+
+    </div>
+
+
+    <div class="cont d-flex mbr-overlay">
+
+        <div class="cont3 col-7 m-5">
+            <h2 style="font-size:30px">
+                #Web and #Mobile</h2>
+            <h1 style="font-size:50px">Get the power of technology, build your digital footprint</h1>
+            <div class="btns d-flex">
+                <button class="btnn my-5 mx-3">Explore</button>
+                <button class="btnn my-5">RET A QUOTE</button>
+            </div>
+
+        </div>
+
+        <div class="form1 col-3">
+            <div class="" style="width: 18rem;">
+                <div class="cont2 p-2">
+                    <h6>Design. Build. Market: How a World-Class Website Can Boost Your Business</h6>
+
+                    <p class="card-text my-4">Hit the ground running with this strategically crafted guide on how to get
+                        started with your first website.</p>
+                    <input class="my-4" type="mail" placeholder="Your E-mail" size="20">
+                    <button type="button" class="btn btn-outline-warning">DOWNLOAD EBOOK</button>
+                    <p class="my-5"><i><b>Happy browsing...</i></b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="d-flex p-5 align-center" id="cardd">
+
+        <div class="card2 col-3 mt-5">
+            <img src="../images/bulb.png" alt=""
+                style="margin-left:170px;height:50px;width: 50px; margin-bottom: 10px;">
+            <h5 align="center">Business Storytelling</h5>
+        </div>
+
+        <div class="card2 col-3 mt-5">
+            <img src="../images/like.png" alt=""
+                style="margin-left:170px;height:50px;width: 50px; margin-bottom: 10px;">
+            <h5 align="center">Video & Graphics</h5>
+        </div>
+
+        <div class="card2 col-3 mt-5">
+            <img src="../images/window.png" alt=""
+                style="margin-left:170px;height:50px;width: 50px; margin-bottom: 10px;">
+            <h5 align="center">Marketing Content & ebooks</h5>
+        </div>
+
+        <div class="card2 col-3 mt-5">
+            <img src="../images/window.png" alt=""
+                style="margin-left:170px;height:50px;width: 50px; margin-bottom: 10px;">
+            <h5 align="center">Blog & Leadership Content</h5>
+        </div>
+
+    </div>
+
+    <div class="rows1 p-5">
+        <h1 class="mt-3" align="center">Success Stories</h1>
+        <div class="card-group container p-6 ">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">We built a repeatable marketing machine to help create a steady pipeline of B2B
+                        leads for a US-based IT multinational.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/images/1.jpg" class="card-img-top" alt="...">
+
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">One of the world's top software companies strengthened its partner program with
+                        an online assessment tool built by us to generate leads.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card-group container">
+            <div class="card">
+                <img src="/images/2.jpg" class="card-img-top" alt="...">
+
+            </div>
+
+
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">When a tech startup in healthcare needed to rapidly scale their operations, we
+                        helped them achieve their goals with digital marketing.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/images/3.jpg" class="card-img-top" alt="...">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="cont4" style="height:477px;color:white;">
+        <h1 align="center" class="p-5">We Work With</h1>
+
+
+
+    </div>
+
+    <div class="cont5" style="height:500px;"></div>
+
+    <div class="cont6" style="height:450px;background-color: rgb(66, 132, 223);">
+        <h1 align="center">Subscribe to our newsletter for a monthly dose of content and <br> marketing insights.</h1>
+
+        <div class="form2 d-flex mx-5 my-5" style="height:56px;margin-left:300px">
+            <input type="mail" placeholder="Email" size="60"
+                style="border-radius: 2px; border:none; padding:3px 20px 3px 20px ;height:60px">
+            <button class="btnn">Subscribe</button><br><br>
+
+        </div>
+
+        <h5 align="center">We don't share your personal info with anyone. Check out our privacy policy for more <br>
+            information.</h5>
+    </div>
+
+    <div class="cont7 p-4" style="height:102px">
+        <img src="/images/in.png" alt="">
+        <img src="/images/fb.png" alt="">
+        <img src="/images/twitter.png" alt="">
+        <img src="/images/insta.png" alt="">
+        <img src="/images/yt.png" alt="">
+    </div>
+
+    <div class="footer bg-dark pt-5" style="height:522px">
+        <div class="container d-flex">
+            <div class="col-2">
+                <img src="/images/logo.png" alt=""><br>
+                <h6>Create | Connect | Captivate</h6><br>
+                <h5><b>Useful Links</b></h5>
+                <a href="">Careers</a><br>
+                <a href="">Terms of Use</a><br>
+                <a href="">Privacy Policy</a><br>
+                <a href="">Content Marketing Packs</a>
+            </div>
+            <div class="col-3">
+                <h1>Our Offices</h1>
+                <h5><b>INDIA</b></h5>
+                <h6>V-4, RK Complex, Corporation Bank Building, Electronics City Phase I, Bangalore - 560100</h6>
+                <a href="">Google Maps Location</a><br><br>
+                <a href="">+91 80 41680485</a><br>
+                <a href="">info@iverbinden.com</a><br><br>
+                <h5><b>USA</b></h5>
+                <h5>6386 Edgemoor Way, San Jose, CA 95129</h5>
+            </div>
+            <div class="col-5">
+                <h1>Contact Us</h1><br>
+                <input type="mail" placeholder="Email" size="50">
+                <input type="text" placeholder="Message" size="50"><br>
+                <button class="btnn">Send Message</button>
+            </div>
+
+        </div>
+        <h6 style="margin: 40px 10px 10px 200px;">© Copyright 2022 Verbinden Communication Pvt. Ltd. - All Rights
+            Reserved</h6>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
